@@ -1,0 +1,12 @@
+{
+  "kind": "marinara.personal-extension",
+  "version": 1,
+  "config": {
+    "name": "슬럽 한국어 패치",
+    "version": "1.0.0",
+    "description": "Slurp 앱(slurp2)에서 아직 영어로 남아 있는 문구를 한국어로 보여 줍니다. Slurp이 받아 오는 한국어 번역 파일(ko.json)에 빠진 번역 키를 채워 넣는 방식이라 Slurp의 원래 번역은 그대로 두고 빈 자리만 보완합니다. 번역 키를 거치지 않는 소수의 고정 문구는 작은 사전으로 바꿉니다. 마리나라 언어가 한국어일 때만 동작하며, Slurp의 번역 요청을 가로채야 하므로 전체 페이지 접근이 필요합니다.",
+    "runtime": "client",
+    "capabilities": ["full_page_access"],
+    "jsPath": "extension.js"
+  }
+}
