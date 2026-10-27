@@ -17,7 +17,7 @@ Marinara Engine 의 Slurp 앱(패키지 `slurp2`)에서 아직 영어로 남아 
 4. 새 버전이 올라오면 GitHub 확장 관리자의 **업데이트 확인**을 눌러 주세요.
 
 ### zip 으로
-`manifest.json` 과 `extension.js` 를 zip 으로 묶어 **설정 → 애드온 → 외부 확장**에서 가져옵니다. 나머지 절차는 같습니다.
+저장소에 올려 둔 `슬럽 한국어 패치_v1.0.0.zip`을 받아(파일을 열고 **Download** 버튼) **설정 → 애드온 → 외부 확장**에서 가져옵니다. 직접 묶으려면 `manifest.json` 과 `extension.js` 를 zip 으로 묶어도 됩니다. 나머지 절차는 같습니다.
 
 ## 동작 원리
 
